@@ -1,0 +1,37 @@
+.menu {
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10; /* Controla la superposición de elementos 
+    El z-index es necesario para asegurarse de que el menú 
+    permanezca encima de otros elementos de la página */
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul li {
+    padding: 14px 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.menu ul li a:hover {
+    background-color: #575757;
+    padding: 14px 20px;
+}
+
+.menu ul li {
+    position: relative;
+    left: 10px;
+}
